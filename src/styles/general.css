@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fafafa;
+  border-radius: 20px;
+}
+
+body {
+  background-image: url('../assets/images/BG.jpg');
+  background-position: top 47% right 48%;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+}

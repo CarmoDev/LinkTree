@@ -16,9 +16,13 @@ export default function App() {
   const [lastVideo, setLastVideo] = useState("");
 
   useEffect(() => {
-    fetch(`https://www.googleapis.com/youtube/v3/search?key=${import.meta.env.VITE_API_KEY}&channelId=${import.meta.env.VITE_CHANNEL_ID}&part=snippet,id&order=date&maxResults=1`).then((Response) => Response.json())
-      .then((data) => setLastVideo(data.items[0].id.videoId));
+    fetch(`https://www.googleapis.com/youtube/v3/search?key=${import.meta.env.VITE_API_KEY}&channelId=${import.meta.env.VITE_CHANNEL_ID}&part=snippet,id&order=date&maxResults=1`)
+      .then((Response) => Response.json())
+      .then((data) => setLastVideo(data.items[0].id.videoId))
+      .catch(() => setLastVideo("G1elCyKTYXM"));
   }, []);
+
+  console.log(lastVideo);
 
   return (
     <Container>

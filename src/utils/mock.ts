@@ -52,13 +52,13 @@ export const Mocks ={
         {
           id: 2,
           URL: "https://api.whatsapp.com/send?phone=5511978373216&text=",
-          name: "MIX",
+          name: "MIXAGEM",
           price: 150.00,
         },
         {
           id: 3,
           URL: "https://api.whatsapp.com/send?phone=5511978373216&text=",
-          name: "MASTER",
+          name: "MASTERIZAÇÃO",
           price: 75.00,
         },
       ],

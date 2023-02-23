@@ -46,18 +46,18 @@ export const Mocks ={
         {
           id: 1,
           URL: "https://api.whatsapp.com/send?phone=5511978373216&text=",
-          name: "CAPTAÇÃO",
+          name: "CAPTAÇÃO DE AÚDIO",
           price: 50.00,
         },
         {
           id: 2,
-          URL: "https://www.youtube.com/@prod.rvsakil",
+          URL: "https://api.whatsapp.com/send?phone=5511978373216&text=",
           name: "MIX",
           price: 150.00,
         },
         {
           id: 3,
-          URL: "https://www.youtube.com/@prod.rvsakil",
+          URL: "https://api.whatsapp.com/send?phone=5511978373216&text=",
           name: "MASTER",
           price: 75.00,
         },

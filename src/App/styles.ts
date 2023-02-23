@@ -31,7 +31,10 @@ export const Header = styled.header`
 
 export const Title = styled.h1`
   color: rgba(255, 255, 255, 0.2);
-  font-size: 64px;
+  max-width: 99%;
+  overflow-x: hidden;
+  letter-spacing: 5px;
+  font-size: 76px;
   font-family: alfarn, sans-serif;
   position: absolute;
   top: 1%;

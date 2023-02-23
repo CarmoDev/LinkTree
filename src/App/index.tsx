@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { Container, Header, Title, Image, Links, Social, LinkTree } from "./styles";
+import { Container, Header, Image, Links, Social, LinkTree } from "./styles";
 
 import { Mocks } from "../utils/mock";
 
@@ -28,9 +28,6 @@ export default function App() {
     <Container>
 
       <Header>
-        <Title>
-          RVSAKIL
-        </Title>
 
         <Image src={Mocks.image} />
 

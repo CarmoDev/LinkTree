@@ -22,24 +22,8 @@ export const Header = styled.header`
 
   a {
     font-weight: bold;
-
-    @media screen and (min-width: 780px) {
-      color: black;
-    }
+    color: black;
   }
-`;
-
-export const Title = styled.h1`
-  color: rgba(255, 255, 255, 0.2);
-  max-width: 99%;
-  overflow-x: hidden;
-  letter-spacing: 5px;
-  font-size: 74px;
-  font-family: alfarn, sans-serif;
-  position: absolute;
-  top: 1%;
-
-  z-index: -20;
 `;
 
 export const Image = styled.img`

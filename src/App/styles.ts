@@ -34,7 +34,7 @@ export const Title = styled.h1`
   max-width: 99%;
   overflow-x: hidden;
   letter-spacing: 5px;
-  font-size: 76px;
+  font-size: 74px;
   font-family: alfarn, sans-serif;
   position: absolute;
   top: 1%;

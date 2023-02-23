@@ -1,6 +1,6 @@
 import img from "./assets/images/Rvs.jpg";
 
-import spotify from "./assets/icons/spotify.svg";
+import spotify from "./assets/icons/Spotify.svg";
 import vynil from "./assets/icons/vynil.svg";
 
 import headphone from "./assets/images/headphone.jpg";
